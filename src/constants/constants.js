@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'TuneSpace',
+    description: "TuneSpace is a guide that provides biographies, discographies, and lyrics of musicians in all genres pulling data from various databases into one convenient location. By bringing multiple data streams into one centralized hub our goal is to create a communal website where users can explore their favorite artists and discover new music. The site features dynamically updated HTML and CSS with local storage used for search results and other relevant parameters.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
@@ -9,8 +9,8 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Digital Anvil',
+    description:"Digital Anvil is a videogame review website that provides users with reviews and once they are logged into the site, it allows those users to post their own reviews to add to our database. In doing this, Digital Anvil is there to help consumers make an informed decision on how to spend their time and money on their videogame entertainment. The site features dynamically updated HTML and CSS with a SQL backend database for users to add and search for relevant data.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
@@ -18,8 +18,8 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: 'Note Taker',
+    description: "This is an application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file..",
       image: '/images/3.jpg',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
@@ -27,8 +27,8 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: 'Work Scheduler',
+    description: "A calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',

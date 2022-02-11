@@ -4,35 +4,22 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
- const projectsDemo = [{
-        title: 'Project 1',
-        description: 'This is a music application that users can search for albums, artists, and lyrics'
-      },
-      {
-        title: 'Project 2',
-        description: 'This hey now music application that users can search for albums, artists, and lyrics'
-      },
-      {
-        title: 'Project 3',
-        description: 'This is a music application that users can search for albums, artists, and lyrics'
-      },
-      {
-        title: 'Project 4',
-        description: 'This is a music application that users can search for albums, artists, and lyrics'
-      }]
-
+ 
 const Projects = () => (
   <Section no padding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {
-      projectsDemo.map((project) => (
-        <div>
-          {project.title}
-          <br />
-          {project.description}
-        </div>
+      projects.map(({ id, image, title, description, tags, source, visit }) => (
+        <BlogCard key={id}>
+          <Img src={image}/>
+          <TitleContent>
+            <HeaderThree title>{title}</HeaderThree>
+            <Hr />
+          </TitleContent>
+          <CardInfo>{description}</CardInfo>
+        </BlogCard>
       ))}
     </GridContainer>
   </Section>
