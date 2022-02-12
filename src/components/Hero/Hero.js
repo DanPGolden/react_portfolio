@@ -8,8 +8,8 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hi! I'm Dan Golden <br />
+        This Is My Personal Portfolio
       </SectionTitle>
       <SectionText>
         I'm a full stack web developer based in Spokane, Washington. I design attractive, functional websites and can provide a total solution to my customers.
