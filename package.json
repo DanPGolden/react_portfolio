@@ -2,6 +2,8 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage":
+  "https://DanPGolden.github.io/react_portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
