@@ -5,8 +5,8 @@
   "homepage": "https://DanPGolden.github.io",
   "scripts": {
     "dev": "next dev",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "next build && next export",
+    "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build"
   },
